@@ -1,0 +1,25 @@
+body {
+  background: orange;
+}
+
+svg {
+  background-color: yellow;
+}
+
+#circulo {
+}
+
+.animacirculo {
+  animation: palpita 0.5s infinite alternate;
+}
+
+@keyframes palpita {
+  0% {
+    r: 100px;
+    fill: rgb(255, 0, 0);
+  }
+  100% {
+    r: 100px;
+    fill: rgb(0, 0, 0);
+  }
+}
